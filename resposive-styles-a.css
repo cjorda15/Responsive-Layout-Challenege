@@ -12,10 +12,11 @@ header{
   width:100%;
   margin-bottom: 14px;
   padding: 14px;
+  height:3vh;
 }
 
 /*main{height:365px}*/
-main{height:80vh}
+main{height:79vh}
 
 
 #a, #b, #c {
@@ -23,6 +24,7 @@ main{height:80vh}
 }
 
 footer{
+  height:3vh;
   padding: 14px;
   background-color: #c3c5c9
 ;
@@ -64,4 +66,11 @@ footer{
 #c{
   width:25%
 }
+header, footer{
+  vh:6vh;
+}
+main{
+  vh:76vh;
+}
+
  }

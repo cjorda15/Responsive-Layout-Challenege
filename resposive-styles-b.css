@@ -14,7 +14,6 @@ header{
   padding: 14px;
 }
 
-/*main{height:365px}*/
 
 main{
   height:80vh;
@@ -58,9 +57,10 @@ footer{
 
 @media(min-width:865px){
 
-header{
-  padding:25px;
-}
+header, footer{
+height:6vh;}
+main{height:76vh}
+
 
 #a{
   height:100%;
